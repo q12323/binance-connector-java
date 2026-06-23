@@ -6,4 +6,4 @@ maven:
 
 install:
   - cd clients
-  - mvn install -DskipTests -Dgpg.skip=true -Dcheckstyle.skip=true -Dmaven.plugins.validation=skip
+  - mvn compile package install -DskipTests -Dgpg.skip=true -Dcheckstyle.skip=true
