@@ -356,8 +356,8 @@ public class UserDataStreamEventsResponse extends AbstractOpenApiSchema {
                                                 deserialized);
                                         return newUserDataStreamEventsResponse;
                                     default:
-                                        newUserDataStreamEventsResponse.setActualInstance(
-                                                jsonElement.toString());
+//                                        newUserDataStreamEventsResponse.setActualInstance(
+//                                                jsonElement.toString());
                                         log.log(
                                                 Level.WARNING,
                                                 String.format(

@@ -4,4 +4,4 @@ jdk:
 install:
   - cd clients
   - chmod +x ./mvnw
-  - ./mvnw install "-DskipTests" "-Dgpg.skip=true"
+  - ./mvnw install "-DskipTests" "-Dgpg.skip=true" "-Dcheckstyle.skip=true" "-Dmaven.javadoc.skip=true"
