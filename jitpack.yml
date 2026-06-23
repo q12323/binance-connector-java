@@ -1,6 +1,9 @@
 jdk:
   - openjdk11
 
+maven:
+  version: 3.9.6
+
 install:
   - cd clients
-  - mvn install -DskipTests -Dgpg.skip=true -Dcheckstyle.skip=true
+  - mvn install -DskipTests -Dgpg.skip=true -Dcheckstyle.skip=true -Dmaven.plugins.validation=skip
