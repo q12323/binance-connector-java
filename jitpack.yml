@@ -1,9 +1,6 @@
 jdk:
   - openjdk11
 
-maven:
-  version: 3.9.6
-
 install:
   - cd clients
-  - mvn compile package install -DskipTests -Dgpg.skip=true -Dcheckstyle.skip=true
+  - mvn compiler:compile jar:jar install:install -DskipTests -Dgpg.skip=true
