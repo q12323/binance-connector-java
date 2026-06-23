@@ -3,4 +3,4 @@ jdk:
 
 install:
   - cd clients
-  - mvn clean install -DskipTests
+  - mvn install -DskipTests -Dgpg.skip=true -Dcheckstyle.skip=true
