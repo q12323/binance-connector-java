@@ -356,8 +356,8 @@ public class UserDataStreamEventsResponse extends AbstractOpenApiSchema {
                                                 deserialized);
                                         return newUserDataStreamEventsResponse;
                                     default:
-//                                        newUserDataStreamEventsResponse.setActualInstance(
-//                                                jsonElement.toString());
+                                        newUserDataStreamEventsResponse.setActualInstance(
+                                                jsonElement.toString());
                                         log.log(
                                                 Level.WARNING,
                                                 String.format(
@@ -750,11 +750,11 @@ public class UserDataStreamEventsResponse extends AbstractOpenApiSchema {
             return;
         }
 
-        throw new RuntimeException(
-                "Invalid instance type. Must be AccountConfigUpdate, AccountUpdate, AlgoUpdate,"
-                        + " Balanceupdate, ConditionalOrderTradeUpdate, Executionreport,"
-                        + " Liabilitychange, Listenkeyexpired, Openorderloss, OrderTradeUpdate,"
-                        + " Outboundaccountposition, Risklevelchange");
+//        throw new RuntimeException(
+//                "Invalid instance type. Must be AccountConfigUpdate, AccountUpdate, AlgoUpdate,"
+//                        + " Balanceupdate, ConditionalOrderTradeUpdate, Executionreport,"
+//                        + " Liabilitychange, Listenkeyexpired, Openorderloss, OrderTradeUpdate,"
+//                        + " Outboundaccountposition, Risklevelchange");
     }
 
     /**
