@@ -3,4 +3,4 @@ jdk:
 
 install:
   - cd clients
-  - mvn compiler:compile jar:jar install:install -DskipTests -Dgpg.skip=true
+  - ./mvnw install "-DskipTests" "-Dgpg.skip=true"
