@@ -3,4 +3,5 @@ jdk:
 
 install:
   - cd clients
+  - chmod +x ./mvnw
   - ./mvnw install "-DskipTests" "-Dgpg.skip=true"
