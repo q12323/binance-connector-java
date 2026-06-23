@@ -1,0 +1,6 @@
+jdk:
+  - openjdk11
+
+install:
+  - cd clients
+  - mvn clean install -DskipTests
