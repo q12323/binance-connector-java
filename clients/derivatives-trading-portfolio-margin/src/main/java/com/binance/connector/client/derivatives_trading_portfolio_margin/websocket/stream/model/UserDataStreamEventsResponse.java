@@ -751,6 +751,8 @@ public class UserDataStreamEventsResponse extends AbstractOpenApiSchema {
             return;
         }
 
+        super.setActualInstance(instance);
+
 //        throw new RuntimeException(
 //                "Invalid instance type. Must be AccountConfigUpdate, AccountUpdate, AlgoUpdate,"
 //                        + " Balanceupdate, ConditionalOrderTradeUpdate, Executionreport,"
