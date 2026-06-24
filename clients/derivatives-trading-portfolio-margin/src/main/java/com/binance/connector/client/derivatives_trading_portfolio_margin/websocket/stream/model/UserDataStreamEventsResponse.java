@@ -382,6 +382,7 @@ public class UserDataStreamEventsResponse extends AbstractOpenApiSchema {
                                                             + " risklevelchange. Falling back to"
                                                             + " String.",
                                                         jsonObject.get("e").getAsString()));
+                                        return newUserDataStreamEventsResponse;
                                 }
                             }
 
